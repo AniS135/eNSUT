@@ -116,6 +116,7 @@ app.post("/Answer",function(req,res){
 
 app.get("/login",function(req,res){
   if(req.isAuthenticated()){
+
     res.redirect('/');
   }else{
     res.render("login");
@@ -189,7 +190,9 @@ app.post("/signup",function(req,res){
 app.get("/socities",function(req,res){
     res.render("socities", {login: login});
 });
-
+// app.get("/socities",function(req,res){
+//     res.render("socities", {login: login});
+// });
 app.get("/resources",function(req,res){
     res.render("resources", {login: login});
 });
