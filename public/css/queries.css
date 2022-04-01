@@ -1,0 +1,214 @@
+/* navbar */
+
+.navbar{
+  padding: 0 0 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  top: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 50%;
+  padding-left: 20px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.collapse{
+  text-align: right;
+}
+
+/* Search Bar */
+
+.search {
+  font-family: 'Open Sans', sans-serif;
+  width: 50%;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10% 0;
+  /* width: 40%;
+  margin: auto; */
+  text-align: center;
+}
+.wrap .heading h1{
+  font-size: 4rem;
+  color: white;
+  margin: 0 0 5% 0;
+}
+
+.startingimage{
+  margin: 0;
+  /* padding-top: 70px; */
+  margin-bottom: 50px;
+  background-color: #fcf2e8;
+}
+img{
+  background-repeat: no-repeat;
+}
+
+/* FAQs */
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+li{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
+}
+.container h2{
+  font-size: 2.5rem;
+  padding: 2% 0 3%;
+  font-weight: 800;
+
+}
+.faq{
+  color: #e38528;
+}
+.myq{
+  color: black;
+}
+.current:hover{
+  color: #e38528;
+  cursor: pointer;
+}
+.myqueries{
+  display: none;
+}
+.proper{
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-radius: .5rem;
+  
+}
+.QueryBox{
+  text-align: center;
+  /* vertical-align: middle; */
+}
+.card{
+  color: #B0ACAB ;
+  box-shadow:.5rem .5rem 1rem rgba(0,0,0,.1);
+}
+
+.proper h2{
+  margin: auto;
+}
+.small-heading{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #e38528;
+  margin: 0 auto 1%;
+  
+}
+.accordion-item h2{
+  text-align: center;
+}
+.accordion-button{
+  display: inline;
+  text-align: center;
+  
+}
+.btn{
+  width: 20%;
+}
+.sign-in{
+  width: 40%;
+  position: relative;
+  left: 31%;
+
+}
+form {
+  font-size: 1.8rem;
+  align-items: center;
+  /* position: relative;
+  top: 35%; */
+}
+.row{
+  margin: 50px auto;
+}
+.collapse li{
+  color: #B0ACAB ;
+}
+.collapse{
+  text-align: center;
+}
+.addAnswer{
+  display: inline;
+}
+.answertext{
+  overflow: hidden; 
+  overflow-wrap: break-word; 
+  height: 30px; 
+  font-size: 1rem; 
+  width: 80%;
+  vertical-align: middle;
+  margin-bottom: 2%;
+}
+.postAnswer{
+  width: 10%;
+  height: 30px;
+  margin-bottom: 2%;
+  padding-top: 2px;
+}

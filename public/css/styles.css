@@ -1,0 +1,248 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  line-height: 2;
+}
+h1{
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  padding-bottom: 10px;
+  color: #e38528;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+  padding: 0 0 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 28%;
+  padding-left: 20px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.collapse{
+  text-align: right;
+}
+
+/* image */
+
+.startingimage{
+  margin: 0;
+  padding-top: 70px;
+  margin-bottom: 70px;
+  background-color: #fcf2e8;
+}
+img{
+  background-repeat: no-repeat;
+}
+
+/* About */
+.About-Us{
+  width: 60%;
+  margin: auto;
+  padding: 30px 0 100px;
+}
+.About-Us h2{
+  padding-bottom: 50px;
+}
+
+/* Socities */
+
+.socities{
+  background-color: #fcf2e8;
+  padding: 20px 0 100px;
+}
+.socities h2{
+  padding: 40px 0;
+  color: black;
+
+}
+.socities h3{
+  padding: 50px 0 0;
+}
+.wid{
+  margin: auto;
+}
+
+/* Features */
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#features{
+  text-align:center;
+  line-height: 2;
+  position: absolute;
+}
+.features-box{
+  padding: 5%;
+  background-color: white;
+  width: 25%;
+  margin: auto;
+  border-radius: .5rem;
+  box-shadow:.5rem .5rem 1rem rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.features-para{
+  color: #8f8f8f;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* Resources */
+/* .card{
+  background: #ebf5fc;
+  width: 200px;
+  height: 300px;
+  box-shadow: 0 10px 20px  rgba(0,0,0,0.1);
+  border-radius: 15px;
+} */
+.card{
+  width: 20%;
+}
+.card:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg,#b95ce4,#4f29cd);
+}
+.card p{
+  font-size: 1.5rem;
+  color: black;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.card:hover p
+{
+    color: #fff;
+}
+#Resources{
+  padding: 30px 0;
+}
+#Resources h2{
+  padding: 50px 0;
+}
+
+
+/* Contact Form */
+
+#contact {
+    background-color: #0abcf9;
+    background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+    color: white;
+    padding-bottom: 40px;
+}
+
+#contact h1 span {
+    color: white;
+    font-size: 4rem;
+    line-height: 2rem;
+}
+#contact p {
+    color: #d9dcdd;
+    font-size: 0.9rem;
+}
+
+.contact-form {
+    margin-left: 20%;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.my-details-container {
+    width: 35%;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.my-details-container h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.5rem;
+}
+
+.my-details-container i{
+  color: white;
+}
+
+.contact-form-container {
+    width: 50%;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container span {
+    margin-left: 0.4rem;
+}
+
+.contact-form input,
+textarea {
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact .btn-outline-primary {
+    color: white;
+    border-color: white;
+}
+#contact .btn-outline-primary:hover {
+  background: white;
+  color: #13386fe0;
+}
+
+
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.contact-heading{
+	  width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}

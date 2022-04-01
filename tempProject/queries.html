@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Queries</title>
+
+  <link rel="icon" type="image/png" href="images/question.png" sizes="16x16">
+  <!-- style -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <link rel="stylesheet" href="queries.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/8695ef84c0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">eNSUT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="socities.html" target="_blank">Socities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html" target="_blank">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+
+  <!-- search bar -->
+  <section id="SearchBar">
+    <div class="startingimage">
+      <img src="images/nsut.jpg" alt="">
+    </div>
+    <div class="wrap">
+      <div class="heading">
+        <h1>How can we help you?</h1>
+      </div>
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="What are you looking for?">
+        <button type="submit" class="searchButton">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+<section id="FAQs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 faq" id="faqid">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 current" id="myqid">
+        <h2>My Queries</h2>
+      </div>
+    </div>
+    <div class="row" id="faqdiv">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <ul class="list-unstyled">
+          <li><a data-bs-toggle="collapse" href="#math1" role="button" aria-expanded="false" aria-controls="math1 cp">How can I reach NSUT?</a></li>
+          <ul class="collapse list-unstyled" id = "math1">
+            <li>The best way to reach NSUT is by metro. The college is only 01 Km from Dwarka Mor Metro Station.</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#cp" role="button" aria-expanded="false" aria-controls="cp">How do I apply for a hostel at NSUT?</a></li>
+          <ul class="collapse list-unstyled" id = "cp">
+            <li>You will need Self-attested copy of Confirmation of Provisional Admission in B. E. program at NSUT, Self-attested copy of NSUT Admission Fee Slip, and 5 Color Photos (Two Stamp size and Three passport size).</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#ene" role="button" aria-expanded="false" aria-controls="ene"> Is there WIFI in NSUT hostels?</a></li>
+          <ul class="collapse list-unstyled" id = "ene">
+            <li>Yes, high speed Wfi is available 24 hours.</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#phy" role="button" aria-expanded="false" aria-controls="phy">How many hostels are there in NSIT?</a></li>
+          <ul class="collapse list-unstyled" id = "phy">
+            <li>NSUT currently has 4 hostels.</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#eng" role="button" aria-expanded="false" aria-controls="eng">Which is better IIIT or NSUT?</a></li>
+          <ul class="collapse list-unstyled" id = "eng">
+            <li>For research, innovation, and higher studies, IIIT Delhi is a better choice but if you are interested in placement, infrastructure, and college life, NSUT is far better than any other college</li>
+          </ul>
+          <!-- <li><a data-bs-toggle="collapse" href="#bme" role="button" aria-expanded="false" aria-controls="bme">Basics of Mechanical Engineering</a></li>
+          <ul class="collapse list-unstyled" id = "bme">
+
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#chem" role="button" aria-expanded="false" aria-controls="chem">Environmental Science and Green Chemistry</a></li>
+          <ul class="collapse list-unstyled" id = "chem">
+
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#math2" role="button" aria-expanded="false" aria-controls="math2">Mathematics II</a></li>
+          <ul class="collapse list-unstyled" id = "math2">
+
+          </ul> -->
+        </ul>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <ul class="list-unstyled">
+          <li><a data-bs-toggle="collapse" href="#math3" role="button" aria-expanded="false" aria-controls="math3 cp1">Which all languages should I start learning first?</a></li>
+          <ul class="collapse list-unstyled" id = "math3">
+            <li>Start with C and Python and then move on to C++.</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#cp1" role="button" aria-expanded="false" aria-controls="cp1">Which all are the tech societies in NSUT?</a></li>
+          <ul class="collapse list-unstyled" id = "cp1">
+            <li>IOSD and GDSC</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#ene1" role="button" aria-expanded="false" aria-controls="ene1">What percentage of attendance should I maintain?</a></li>
+          <ul class="collapse list-unstyled" id = "ene1">
+            <li>At least 80%</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#phy1" role="button" aria-expanded="false" aria-controls="phy1">How should I prepare for the mid semester exams?</a></li>
+          <ul class="collapse list-unstyled" id = "phy1">
+            <li>Just pay 100% attention in class since most of the questions are already discusses in the class.</li>
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#eng1" role="button" aria-expanded="false" aria-controls="eng1">I am in COE. I wasn’t able to get CSAI. Does it matter?</a></li>
+          <ul class="collapse list-unstyled" id = "eng1">
+            <li>No. Both are equally good branches with almost the same syllabus</li>
+          </ul>
+          <!-- <li><a data-bs-toggle="collapse" href="#bme" role="button" aria-expanded="false" aria-controls="bme">Basics of Mechanical Engineering</a></li>
+          <ul class="collapse list-unstyled" id = "bme">
+
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#chem" role="button" aria-expanded="false" aria-controls="chem">Environmental Science and Green Chemistry</a></li>
+          <ul class="collapse list-unstyled" id = "chem">
+
+          </ul>
+          <li><a data-bs-toggle="collapse" href="#math2" role="button" aria-expanded="false" aria-controls="math2">Mathematics II</a></li>
+          <ul class="collapse list-unstyled" id = "math2">
+
+          </ul> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row myqueries" id="myqdiv">
+    <div class="col-lg-6 card proper">
+      <h2>No Queries Asked Yet.</h2>
+    </div>
+    <div class="col-lg-6 proper">
+      <form action="" method="">
+        Query : <input type="text" name="queryname" placeholder="Write your query here">
+        <button type="submit" class="btn btn-outline-warning btn-lg">Ask a doubt</button>
+      </form>
+      
+    </div>
+  </div>
+</section>
+<script src="queries.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+/* body{
+  text-align: center;
+} */
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    /* padding-bottom: 40px; */
+    padding: 40px 0;
+    /* background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%); */
+}
+.middle{
+  text-align: center;
+}
+.heading{
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+  color: white;
+}
+.ficon{
+  margin: 2% 1%;
+  color: #0564FB;
+  font-size: 1.2rem;
+}
+.ficon:hover{
+  color: #FF5733;
+}
+
+/* navbar */
+
+.navbar{
+  padding: 0 0 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  top: 0px;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-right: 50%;
+  padding-left: 20px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.collapse{
+  text-align: right;
+}
